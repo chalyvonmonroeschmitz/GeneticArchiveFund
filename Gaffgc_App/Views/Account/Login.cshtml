@@ -1,0 +1,59 @@
+﻿@using Gaffgc_App.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Your Genome Dashboard";
+}
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GenomeLink© User Login" />
+    <meta name="author" content="" />
+    <title>GenomeLink© & GenomePass©</title>
+
+</head>
+
+
+<body class="page-body login-page">
+    <div class="login-container">
+        <div class="row">
+            <div class="col-md-6">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "login-form", role = "form" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <h4 class="login-header">GenomeLink© & GenomePass© Login</h4>
+                    <hr />
+
+                    <div class="form-group">
+                        <label class="control-label" for="username">Username Or Email</label>
+                        @Html.TextBoxFor(m => m.Email, new { @class = "form-control input-dark" })
+                        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="passwd">Password</label>
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control input-dark" })
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-dark  btn-block text-left">
+                            <i class="fa-lock"></i>
+                            Log In
+                        </button>
+                    </div>
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                }
+                <p>
+                    Username: demo@email.com
+                    Password: Demo@123
+                </p>
+                <div class="info-links">
+                    <p>@Html.ActionLink("Register as a new user", "Register")</p>
+
+                    <p> @Html.ActionLink("Forgot your password?", "ForgotPassword")</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

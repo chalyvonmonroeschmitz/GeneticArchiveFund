@@ -1,0 +1,20 @@
+﻿
+@Styles.Render("~/Content/css")
+@{
+    Html.RenderPartial("_Header");
+}
+@RenderSection("Header", required: false)
+
+
+@RenderBody()
+
+
+<!-- load inner Section first for correct script loading -->
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/min")
+@Scripts.Render("~/bundles/vmap")
+@Scripts.Render("~/bundles/xenon")
+@{
+    Html.RenderPartial("_Footer");
+}
+@RenderSection("Footer", required: false)

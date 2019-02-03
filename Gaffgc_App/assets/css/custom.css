@@ -1,0 +1,21 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+@font-face {
+    font-family: 'fontawesome-webfont';
+    src: url('fonts/fontawesome/fonts/fontawesome-webfont.woff') format('woff') !important;
+    src: url('fonts/fontawesome/fonts/fontawesome-webfont.ttf') format('truetype');
+    src: url('fonts/fontawesome/fonts/fontawesome-webfont.svg') format('svg');
+    src: url('fonts/fontawesome/fonts/fontawesome-webfont.eot') format('embedded-opentype');
+}
+
+@font-face {
+    font-family: 'linecons';
+    src: url('fonts/linecons/font/linecons.woff') format('woff');
+    src: url('fonts/linecons/font/linecons.eot') format('embedded-opentype');
+    src: url('fonts/linecons/font/linecons.svg') format('svg');
+    src: url('fonts/linecons/font/linecons.ttf') format('truetype');
+}
