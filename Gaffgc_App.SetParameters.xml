@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="https://gaffgc.azurewebsites.net" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=(localdb)\ProjectsV12;Initial Catalog=gaffgcdb;Integrated Security=True" />
+  <setParameter name="AzureDBConnection-Web.config Connection String" value="Data Source=geneticarchivefundbserver.database.windows.net;Initial Catalog=gaffgc_db;User ID=Charly;Password=UnlockMe@247;Asynchronous Processing=True;MultipleActiveResultSets=True;Connect Timeout=30;Encrypt=True;MultiSubnetFailover=True;ConnectRetryCount=2;ConnectRetryInterval=30" />
+  <setParameter name="SenappsAzure-Web.config Connection String" value="Data Source=senappsdata1.database.windows.net;Initial Catalog=gaffgc_db;User ID=Charly;Password=UnlockMe@247;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" />
+</parameters>
