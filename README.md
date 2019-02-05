@@ -10,4 +10,4 @@ The complete depletion of your heritage and history of being in the world delibe
 -- Project Requirements --
 MinKNOW© Software for DNA analysis and segmentation alignment
 
-![Alt text](https://github.com/SenApps-Development/GeneticArchiveFund/blob/master/EntityDesignerDiagram.jpg?raw=true "Title")
+![Alt text](https://github.com/SenApps-Development/GeneticArchiveFund/blob/master/GaffgcDB_Model_Design.jpg?raw=true "Title")
