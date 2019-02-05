@@ -6,6 +6,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Gaffgc_App.Models;
+using System;
+using static Gaffgc_App.Models.RegisterViewModel;
 
 namespace Gaffgc_App.Controllers
 {
@@ -154,7 +156,12 @@ namespace Gaffgc_App.Controllers
             {
 
                 // change to model instead of Owin identity
-                var user = new User { UserName = model.Email, Email = model.Email, Name = model.Name, Surname = model.Surname, Birthday = model.Birthday, Country = model.Country };
+              
+                var user = new Member { UserName = model.Email, Email = model.Email, Name = model.Name,
+                    Surname = model.Surname, Birthday = model.Birthday, Country = model.Country, Education = model.Education,
+                        Gender = model.Gender, Language = model.Language, Lineage = model.Lineage, Profession = model.Profession, PhoneNumber = model.PhoneNumber, Location = model.Location,
+                          CreationDate = DateTime.Now
+                };
                 GaffgcDBContext db = new GaffgcDBContext();
 
                 var result = await UserManager.CreateAsync(user, model.Password);
@@ -373,7 +380,7 @@ namespace Gaffgc_App.Controllers
                 {
                     return View("ExternalLoginFailure");
                 }
-                var user = new User { UserName = model.Email, Email = model.Email };
+                var user = new Member { UserName = model.Email, Email = model.Email };
                 var result = await UserManager.CreateAsync(user);
                 if (result.Succeeded)
                 {

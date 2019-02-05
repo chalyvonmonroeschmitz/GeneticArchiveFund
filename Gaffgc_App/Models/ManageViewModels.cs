@@ -5,7 +5,7 @@ using Microsoft.Owin.Security;
 
 namespace Gaffgc_App.Models
 {
-    public class IndexViewModel : User
+    public class IndexViewModel : Member
     {  
         public bool HasPassword { get; set; }
         public IList<UserLoginInfo> Logins { get; set; }

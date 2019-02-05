@@ -7,6 +7,7 @@ using Microsoft.Owin.Security.Google;
 using Owin;
 using Gaffgc_App.Models;
 
+
 namespace Gaffgc_App
 {
     public partial class Startup
@@ -30,7 +31,7 @@ namespace Gaffgc_App
                 {
                     // Enables the application to validate the security stamp when the user logs in.
                     // This is a security feature which is used when you change a password or add an external login to your account.  
-                    OnValidateIdentity = SecurityStampValidator.OnValidateIdentity<UserManager, User>(
+                    OnValidateIdentity = SecurityStampValidator.OnValidateIdentity<UserManager, Member>(
                         validateInterval: TimeSpan.FromMinutes(30),
                         regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
                 }

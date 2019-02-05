@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Gaffgc_App.Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DNAs">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="barCode" Type="nvarchar(max)" />
+          <Property Name="hasMatch" Type="bit" Nullable="false" />
+          <Property Name="store_url" Type="nvarchar(max)" />
+          <Property Name="location" Type="nvarchar(max)" />
+          <Property Name="LinkTree_id" Type="int" />
+        </EntityType>
+        <EntityType Name="LinkTree">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Member">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Name" Type="nvarchar(max)" />
+          <Property Name="Surname" Type="nvarchar(max)" />
+          <Property Name="Birthday" Type="datetime" Nullable="false" />
+          <Property Name="Country" Type="nvarchar(max)" />
+          <Property Name="Email" Type="nvarchar" MaxLength="256" />
+          <Property Name="EmailConfirmed" Type="bit" Nullable="false" />
+          <Property Name="PasswordHash" Type="nvarchar(max)" />
+          <Property Name="SecurityStamp" Type="nvarchar(max)" />
+          <Property Name="PhoneNumber" Type="nvarchar(max)" />
+          <Property Name="PhoneNumberConfirmed" Type="bit" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="bit" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="datetime" />
+          <Property Name="LockoutEnabled" Type="bit" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="int" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="HasPassword" Type="bit" />
+          <Property Name="TwoFactor" Type="bit" />
+          <Property Name="BrowserRemembered" Type="bit" />
+          <Property Name="Discriminator" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Gender" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Education" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Employment" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Language" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Religion" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Lineage" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Location" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MemberClaim">
+          <Key>
+            <PropertyRef Name="MemberClaim1" />
+          </Key>
+          <Property Name="MemberClaim1" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ClaimType" Type="nvarchar(max)" />
+          <Property Name="ClaimValue" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="MemberLogin">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="LoginProvider" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="ProviderKey" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="UserId" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MemberRole">
+          <Key>
+            <PropertyRef Name="Member_id" />
+            <PropertyRef Name="Roles_RoleId" />
+          </Key>
+          <Property Name="Member_id" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Roles_RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Roles">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="256" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_dbo_DNAs_dbo_LinkTree_LinkTree_id">
+          <End Role="LinkTree" Type="Self.LinkTree" Multiplicity="0..1" />
+          <End Role="DNAs" Type="Self.DNAs" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LinkTree">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="DNAs">
+              <PropertyRef Name="LinkTree_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberClaim_dbo_Member_UserId">
+          <End Role="Member" Type="Self.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberClaim" Type="Self.MemberClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="MemberClaim">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberLogin_dbo_Member_UserId">
+          <End Role="Member" Type="Self.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberLogin" Type="Self.MemberLogin" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="MemberLogin">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MemberRole_Member">
+          <End Role="Member" Type="Self.Member" Multiplicity="1" />
+          <End Role="MemberRole" Type="Self.MemberRole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="MemberRole">
+              <PropertyRef Name="Member_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MemberRole_Roles">
+          <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+          <End Role="MemberRole" Type="Self.MemberRole" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Roles">
+              <PropertyRef Name="RoleId" />
+            </Principal>
+            <Dependent Role="MemberRole">
+              <PropertyRef Name="Roles_RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Gaffgc_AppModelsStoreContainer">
+          <EntitySet Name="DNAs" EntityType="Self.DNAs" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LinkTree" EntityType="Self.LinkTree" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Member" EntityType="Self.Member" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MemberClaim" EntityType="Self.MemberClaim" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MemberLogin" EntityType="Self.MemberLogin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MemberRole" EntityType="Self.MemberRole" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_dbo_DNAs_dbo_LinkTree_LinkTree_id" Association="Self.FK_dbo_DNAs_dbo_LinkTree_LinkTree_id">
+            <End Role="LinkTree" EntitySet="LinkTree" />
+            <End Role="DNAs" EntitySet="DNAs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberClaim_dbo_Member_UserId" Association="Self.FK_dbo_MemberClaim_dbo_Member_UserId">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="MemberClaim" EntitySet="MemberClaim" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberLogin_dbo_Member_UserId" Association="Self.FK_dbo_MemberLogin_dbo_Member_UserId">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="MemberLogin" EntitySet="MemberLogin" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MemberRole_Member" Association="Self.FK_MemberRole_Member">
+            <End Role="Member" EntitySet="Member" />
+            <End Role="MemberRole" EntitySet="MemberRole" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MemberRole_Roles" Association="Self.FK_MemberRole_Roles">
+            <End Role="Roles" EntitySet="Roles" />
+            <End Role="MemberRole" EntitySet="MemberRole" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Gaffgc_App.Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DNA">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="barCode" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="hasMatch" Type="Boolean" Nullable="false" />
+          <Property Name="store_url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="LinkTree_id" Type="Int32" />
+          <NavigationProperty Name="LinkTree" Relationship="Self.FK_dbo_DNAs_dbo_LinkTree_LinkTree_id" FromRole="DNAs" ToRole="LinkTree" />
+        </EntityType>
+        <EntityType Name="LinkTree">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="DNAs" Relationship="Self.FK_dbo_DNAs_dbo_LinkTree_LinkTree_id" FromRole="LinkTree" ToRole="DNAs" />
+        </EntityType>
+        <EntityType Name="Member">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Country" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Name="EmailConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="PasswordHash" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="SecurityStamp" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PhoneNumberConfirmed" Type="Boolean" Nullable="false" />
+          <Property Name="TwoFactorEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="LockoutEndDateUtc" Type="DateTime" Precision="3" />
+          <Property Name="LockoutEnabled" Type="Boolean" Nullable="false" />
+          <Property Name="AccessFailedCount" Type="Int32" Nullable="false" />
+          <Property Name="UserName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="HasPassword" Type="Boolean" />
+          <Property Name="TwoFactor" Type="Boolean" />
+          <Property Name="BrowserRemembered" Type="Boolean" />
+          <Property Name="Discriminator" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Gender" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Education" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Employment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Language" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Religion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Lineage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="MemberClaims" Relationship="Self.FK_dbo_MemberClaim_dbo_Member_UserId" FromRole="Member" ToRole="MemberClaim" />
+          <NavigationProperty Name="MemberLogins" Relationship="Self.FK_dbo_MemberLogin_dbo_Member_UserId" FromRole="Member" ToRole="MemberLogin" />
+          <NavigationProperty Name="Roles" Relationship="Self.MemberRole" FromRole="Member" ToRole="Roles" />
+        </EntityType>
+        <EntityType Name="MemberClaim">
+          <Key>
+            <PropertyRef Name="MemberClaim1" />
+          </Key>
+          <Property Name="MemberClaim1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ClaimType" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="ClaimValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Member" Relationship="Self.FK_dbo_MemberClaim_dbo_Member_UserId" FromRole="MemberClaim" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="MemberLogin">
+          <Key>
+            <PropertyRef Name="LoginProvider" />
+            <PropertyRef Name="ProviderKey" />
+            <PropertyRef Name="UserId" />
+          </Key>
+          <Property Name="LoginProvider" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="ProviderKey" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="UserId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Member" Relationship="Self.FK_dbo_MemberLogin_dbo_Member_UserId" FromRole="MemberLogin" ToRole="Member" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="RoleId" />
+          </Key>
+          <Property Name="RoleId" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Members" Relationship="Self.MemberRole" FromRole="Roles" ToRole="Member" />
+        </EntityType>
+        <Association Name="FK_dbo_DNAs_dbo_LinkTree_LinkTree_id">
+          <End Role="LinkTree" Type="Self.LinkTree" Multiplicity="0..1" />
+          <End Role="DNAs" Type="Self.DNA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LinkTree">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="DNAs">
+              <PropertyRef Name="LinkTree_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberClaim_dbo_Member_UserId">
+          <End Role="Member" Type="Self.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberClaim" Type="Self.MemberClaim" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="MemberClaim">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_dbo_MemberLogin_dbo_Member_UserId">
+          <End Role="Member" Type="Self.Member" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MemberLogin" Type="Self.MemberLogin" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Member">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="MemberLogin">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MemberRole">
+          <End Role="Member" Type="Self.Member" Multiplicity="*" />
+          <End Role="Roles" Type="Self.Role" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="dbdesignconnection" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DNAs" EntityType="Self.DNA" />
+          <EntitySet Name="LinkTrees" EntityType="Self.LinkTree" />
+          <EntitySet Name="Members" EntityType="Self.Member" />
+          <EntitySet Name="MemberClaims" EntityType="Self.MemberClaim" />
+          <EntitySet Name="MemberLogins" EntityType="Self.MemberLogin" />
+          <EntitySet Name="Roles" EntityType="Self.Role" />
+          <AssociationSet Name="FK_dbo_DNAs_dbo_LinkTree_LinkTree_id" Association="Self.FK_dbo_DNAs_dbo_LinkTree_LinkTree_id">
+            <End Role="LinkTree" EntitySet="LinkTrees" />
+            <End Role="DNAs" EntitySet="DNAs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberClaim_dbo_Member_UserId" Association="Self.FK_dbo_MemberClaim_dbo_Member_UserId">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="MemberClaim" EntitySet="MemberClaims" />
+          </AssociationSet>
+          <AssociationSet Name="FK_dbo_MemberLogin_dbo_Member_UserId" Association="Self.FK_dbo_MemberLogin_dbo_Member_UserId">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="MemberLogin" EntitySet="MemberLogins" />
+          </AssociationSet>
+          <AssociationSet Name="MemberRole" Association="Self.MemberRole">
+            <End Role="Member" EntitySet="Members" />
+            <End Role="Roles" EntitySet="Roles" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Gaffgc_AppModelsStoreContainer" CdmEntityContainer="dbdesignconnection">
+          <EntitySetMapping Name="DNAs">
+            <EntityTypeMapping TypeName="Gaffgc_App.Models.DNA">
+              <MappingFragment StoreEntitySet="DNAs">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="barCode" ColumnName="barCode" />
+                <ScalarProperty Name="hasMatch" ColumnName="hasMatch" />
+                <ScalarProperty Name="store_url" ColumnName="store_url" />
+                <ScalarProperty Name="location" ColumnName="location" />
+                <ScalarProperty Name="LinkTree_id" ColumnName="LinkTree_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LinkTrees">
+            <EntityTypeMapping TypeName="Gaffgc_App.Models.LinkTree">
+              <MappingFragment StoreEntitySet="LinkTree">
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Members">
+            <EntityTypeMapping TypeName="Gaffgc_App.Models.Member">
+              <MappingFragment StoreEntitySet="Member">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+                <ScalarProperty Name="Country" ColumnName="Country" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+                <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+                <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+                <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+                <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+                <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+                <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="HasPassword" ColumnName="HasPassword" />
+                <ScalarProperty Name="TwoFactor" ColumnName="TwoFactor" />
+                <ScalarProperty Name="BrowserRemembered" ColumnName="BrowserRemembered" />
+                <ScalarProperty Name="Discriminator" ColumnName="Discriminator" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Education" ColumnName="Education" />
+                <ScalarProperty Name="Employment" ColumnName="Employment" />
+                <ScalarProperty Name="Language" ColumnName="Language" />
+                <ScalarProperty Name="Religion" ColumnName="Religion" />
+                <ScalarProperty Name="Lineage" ColumnName="Lineage" />
+                <ScalarProperty Name="Location" ColumnName="Location" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MemberClaims">
+            <EntityTypeMapping TypeName="Gaffgc_App.Models.MemberClaim">
+              <MappingFragment StoreEntitySet="MemberClaim">
+                <ScalarProperty Name="MemberClaim1" ColumnName="MemberClaim1" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+                <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+                <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MemberLogins">
+            <EntityTypeMapping TypeName="Gaffgc_App.Models.MemberLogin">
+              <MappingFragment StoreEntitySet="MemberLogin">
+                <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+                <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+                <ScalarProperty Name="UserId" ColumnName="UserId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Roles">
+            <EntityTypeMapping TypeName="Gaffgc_App.Models.Role">
+              <MappingFragment StoreEntitySet="Roles">
+                <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="MemberRole" TypeName="Gaffgc_App.Models.MemberRole" StoreEntitySet="MemberRole">
+            <EndProperty Name="Member">
+              <ScalarProperty Name="id" ColumnName="Member_id" />
+            </EndProperty>
+            <EndProperty Name="Roles">
+              <ScalarProperty Name="RoleId" ColumnName="Roles_RoleId" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

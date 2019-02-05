@@ -11,7 +11,7 @@ namespace Gaffgc_App.Controllers
     {
         public ActionResult Index()
         {
-            return RedirectToAction("Login", "Account");            
+            return RedirectToAction("Login", "Account");
         }
 
         public ActionResult About()
@@ -24,8 +24,10 @@ namespace Gaffgc_App.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-            
+
             return View();
         }
+
     }
+
 }

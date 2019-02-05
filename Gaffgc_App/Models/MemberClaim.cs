@@ -12,15 +12,13 @@ namespace Gaffgc_App.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class DNA
+    public partial class MemberClaim
     {
-        public int id { get; set; }
-        public string barCode { get; set; }
-        public bool hasMatch { get; set; }
-        public string store_url { get; set; }
-        public string location { get; set; }
-        public Nullable<int> LinkTree_id { get; set; }
+        public int MemberClaim1 { get; set; }
+        public string UserId { get; set; }
+        public string ClaimType { get; set; }
+        public string ClaimValue { get; set; }
     
-        public virtual LinkTree LinkTree { get; set; }
+        public virtual Member Member { get; set; }
     }
 }

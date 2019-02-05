@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Web.Mvc;
+using CompareAttribute = System.ComponentModel.DataAnnotations.CompareAttribute;
 
 namespace Gaffgc_App.Models
 {
@@ -80,12 +82,50 @@ namespace Gaffgc_App.Models
         [Required]        
         [DataType(DataType.Date)]
         [Display(Name = "Birthday")]
-        public int Birthday { get; set; }
+        public System.DateTime Birthday { get; set; }
 
         [Required]
         [Display(Name = "Country")]
         public string Country { get; set; }
-        
+
+        [Required]
+        [Display(Name = "Gender")]
+        public string Gender { get; set; }
+
+        public enum Genders
+        {
+            [Display(Name = "Male")]
+            Male,
+
+            [Display(Name = "Female")]
+            Female
+        }
+
+            [Required]
+        [Display(Name = "Phone")]
+        [DataType(DataType.PhoneNumber)]
+        public string PhoneNumber { get; set; }
+
+        [Display(Name = "Education")]
+        public string Education { get; set; }
+
+        [Display(Name = "Profession")]
+        public string Profession { get; set; }
+
+        [Required]
+        [Display(Name = "Language")]
+        public string Language { get; set; }
+
+        [Display(Name = "Religion")]
+        public string Religion { get; set; }
+
+        [Display(Name = "Lineage")]
+        public string Lineage { get; set; }
+
+        [Required]
+        [Display(Name = "Location")]
+        public string Location { get; set; }
+
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
@@ -127,7 +167,4 @@ namespace Gaffgc_App.Models
         public string Email { get; set; }
     }
 
-    public class AccountViewModel
-    {
-    }
 }

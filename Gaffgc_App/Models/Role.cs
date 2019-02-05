@@ -12,15 +12,18 @@ namespace Gaffgc_App.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class DNA
+    public partial class Role
     {
-        public int id { get; set; }
-        public string barCode { get; set; }
-        public bool hasMatch { get; set; }
-        public string store_url { get; set; }
-        public string location { get; set; }
-        public Nullable<int> LinkTree_id { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Role()
+        {
+            this.Members = new HashSet<Member>();
+        }
     
-        public virtual LinkTree LinkTree { get; set; }
+        public string RoleId { get; set; }
+        public string Name { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Member> Members { get; set; }
     }
 }

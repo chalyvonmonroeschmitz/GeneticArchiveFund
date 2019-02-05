@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -16,14 +15,14 @@ namespace Gaffgc_App.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private UserManager _userManager;
-        private IEnumerable<User> _userStore;
+        private IEnumerable<Member> _userStore;
 
         public ManageController()
         {
 
         }
 
-        public IEnumerable<User> dbStore
+        public IEnumerable<Member> dbStore
         {
             get
             {
@@ -85,16 +84,23 @@ namespace Gaffgc_App.Controllers
 
                 var model = new IndexViewModel
                 {
+                    Name = UserManager.FindById(userId).Name,
+                    Surname = UserManager.FindById(userId).Surname,
+                    Email = UserManager.FindById(userId).Email,
+                    Birthday = UserManager.FindById(userId).Birthday,
+                    Country = UserManager.FindById(userId).Country,
+                    Gender = UserManager.FindById(userId).Gender,
+                    Education = UserManager.FindById(userId).Education,
+                    Language = UserManager.FindById(userId).Language,
+                    Lineage = UserManager.FindById(userId).Lineage,
+                    Profession = UserManager.FindById(userId).Profession,
+                    Religion = UserManager.FindById(userId).Religion,
+                    Location = UserManager.FindById(userId).Location,
                     HasPassword = HasPassword(),
                     PhoneNumber = await UserManager.GetPhoneNumberAsync(userId),
                     TwoFactor = await UserManager.GetTwoFactorEnabledAsync(userId),
                     Logins = await UserManager.GetLoginsAsync(userId),
                     BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId),
-                    Name = UserManager.FindById(userId).Name,
-                    Surname = UserManager.FindById(userId).Surname,
-                    Email = UserManager.FindById(userId).Email,
-                    Birthday = UserManager.FindById(userId).Birthday,
-                    Country = UserManager.FindById(userId).Country                   
                 };
 
                 return View(model);
@@ -416,5 +422,46 @@ namespace Gaffgc_App.Controllers
         }
 
         #endregion
+
+        // Implament User Menu Controllers
+        [HttpGet]
+        [ChildActionOnly]
+        public ActionResult _SideBar()
+        {
+            var model = new Gaffgc_App.Models.IndexViewModel();
+            return PartialView(model);
+        }
+
+        // Implament User Menu Controllers
+        [HttpGet]
+        [ChildActionOnly]
+        public ActionResult _Header()
+        {
+            var model = new Gaffgc_App.Models.IndexViewModel();
+            return PartialView(model);
+        }
+
+        // Implament User Menu Controllers
+        [HttpGet]
+        [ChildActionOnly]
+        public ActionResult _NavBar()
+        {
+            var model = new Gaffgc_App.Models.IndexViewModel();
+            return PartialView(model);
+        }
+
+        // Implament User Menu Controllers
+        [HttpGet]
+        [ChildActionOnly]
+        public ActionResult _ProfileMenu()
+        {
+            var model = new Gaffgc_App.Models.IndexViewModel();
+            return PartialView(model);
+        }
+
+        public UserManager<Member> getAccountService()
+        {
+            return (UserManager<Member>)UserManager.Users;
+        }
     }
 }
