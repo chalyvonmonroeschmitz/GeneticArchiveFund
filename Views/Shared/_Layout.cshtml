@@ -1,0 +1,30 @@
+﻿@if (Request.IsAuthenticated)
+{
+    Html.RenderPartial("_Header");
+
+}
+@RenderSection("Header", required: false)
+
+
+    @if (Request.IsAuthenticated)
+    {
+        Html.RenderPartial("_SideBar");
+    }
+
+    <div class="main-content">
+        @if (Request.IsAuthenticated)
+        {
+            Html.RenderPartial("_NavBar");
+        }
+
+        @RenderBody()
+
+    </div>
+
+
+    @if (Request.IsAuthenticated)
+    {
+        Html.RenderPartial("_Footer");
+    }
+    @RenderSection("Footer", required: false)
+
