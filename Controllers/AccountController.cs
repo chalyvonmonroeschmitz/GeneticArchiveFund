@@ -155,13 +155,35 @@ namespace Gaffgc_App.Controllers
             if (ModelState.IsValid)
             {
 
-                // change to model instead of Owin identity
-              
-                var user = new Member { UserName = model.Email, Email = model.Email, Name = model.Name,
-                    Surname = model.Surname, Birthday = model.Birthday, Country = model.Country, Education = model.Education,
-                        Gender = model.Gender, Language = model.Language, Lineage = model.Lineage, Profession = model.Profession, PhoneNumber = model.PhoneNumber, Location = model.Location,
-                          CreationDate = DateTime.Now
+                // Custom wrapper from ViewModel to Entity Properties such as Location Details
+                string educationWrap = model.subject + " " + model.SchoolName + " " + model.SchoolEndDate;
+                string locationWrap = model.AdressNumber + " " + model.Street + ", " + model.City + ", " + model.State + ", " + model.Country + " " + model.Postcode;
+                string professoinWrap = model.company + ", " + model.Position + ", " + model.JobEndDate2;
+                string professoin2Wrap = model.company2 + ", " + model.Position2 + ", " + model.JobEndDate2;
+
+
+                // change to model instead of Owin identity                
+                var user = new Member
+                {
+                    UserName = model.Email,
+                    Email = model.Email,
+                    Name = model.Name,
+                    UserNameOption = model.UserNameOption,
+                    Surname = model.Surname,
+                    Birthday = model.Birthday,
+                    Country = model.Country,
+                    Profession = professoinWrap,
+                    Profession2 = professoin2Wrap,
+                    Gender = model.Gender,
+                    Language = model.Language,
+                    Lineage = model.Lineage,
+                    Religion = model.Religion,
+                    Education = educationWrap,
+                    PhoneNumber = model.PhoneNumber,
+                    Location = locationWrap,
+                    CreationDate = DateTime.Parse(DateTime.Now.ToShortDateString())
                 };
+                
                 GaffgcDBContext db = new GaffgcDBContext();
 
                 var result = await UserManager.CreateAsync(user, model.Password);

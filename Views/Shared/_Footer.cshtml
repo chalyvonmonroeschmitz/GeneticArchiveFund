@@ -1,7 +1,6 @@
 ﻿@{
     ViewBag.msg = "This is a footer";
 }
-
 <!-- Bottom Scripts -->
 <script src="~/assets/js/bootstrap.min.js"></script>
 <script src="~/assets/js/TweenMax.min.js"></script>
@@ -9,19 +8,28 @@
 <script src="~/assets/js/joinable.js"></script>
 <script src="~/assets/js/xenon-api.js"></script>
 <script src="~/assets/js/xenon-toggles.js"></script>
-<script src="~/assets/js/jquery-validate/jquery.validate.min.js"></script>
-<script src="~/assets/js/toastr/toastr.min.js"></script>
+<!-- <script src="~/assets/js/toastr/toastr.min.js"></script> -->
+<!-- Form resources -->
 
-<!-- JavaScripts initializations and stuff -->
-<script src="~/assets/js/xenon-custom.js"></script>
+<link rel="stylesheet" href="~/assets/js/multiselect/css/multi-select.css">
+<script src="~/assets/js/jquery-validate/jquery.validate.min.js"></script>
+<!-- Unobtrusive is required for MVC validation -->
+<script src="~/assets/js/jquery-validate/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/assets/js/inputmask/jquery.inputmask.bundle.js"></script>
+<script src="~/assets/js/formwizard/jquery.bootstrap.wizard.min.js"></script>
+<script src="~/assets/js/datepicker/bootstrap-datepicker.js"></script>
+<script src="~/assets/js/multiselect/js/jquery.multi-select.js"></script>
+<script src="~/assets/js/jquery-ui/jquery-ui.min.js"></script>
+<script src="~/assets/js/selectboxit/jquery.selectBoxIt.min.js"></script>
 
 <!-- Imported scripts on this page -->
 <script src="~/assets/js/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
 <script src="~/assets/js/jvectormap/regions/jquery-jvectormap-world-mill-en.js"></script>
 <script src="~/assets/js/jvectormap/regions/jquery-jvectormap-it-mill-en.js"></script>
 
-<!-- JavaScripts initializations and stuff -->
-<script src="~/assets/js/xenon-custom.js"></script>
+<!-- Customized Script override File for Application -->
+<script src="~/assets/js/gaffgc.js"></script>
+
 
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
@@ -29,7 +37,6 @@
             $(".dx-warning").removeClass('hidden');
     });
 </script>
-
 <script type="text/javascript">
     var sample_notification;
 
@@ -525,7 +532,6 @@
         return randInt;
     }
 </script>
-
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         var map = $("#sample-map-widget");
@@ -607,7 +613,6 @@
         });
     });
 </script>
-
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         var map = $("#italy");

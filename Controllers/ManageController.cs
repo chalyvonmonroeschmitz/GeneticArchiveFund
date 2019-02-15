@@ -7,6 +7,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Gaffgc_App.Models;
 using System.Collections.Generic;
+using System;
 
 namespace Gaffgc_App.Controllers
 {
@@ -79,8 +80,14 @@ namespace Gaffgc_App.Controllers
                     : message == ManageMessageId.AddPhoneSuccess ? "Your phone number was added."
                     : message == ManageMessageId.RemovePhoneSuccess ? "Your phone number was removed."
                     : "";
-
+                
                 var userId = User.Identity.GetUserId();
+                // Async for calls to database is needed by UserManager
+                var user = await UserManager.FindByIdAsync(User.Identity.GetUserId());
+
+                TimeSpan difference = DateTime.Now - user.CreationDate;
+                var days = difference.TotalDays;
+                ViewBag.membersince = Math.Round(days);
 
                 var model = new IndexViewModel
                 {
