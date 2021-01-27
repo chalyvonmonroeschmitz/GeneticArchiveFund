@@ -26,4 +26,5 @@ DNA sequence injection flaw has been discovered in the Quantum source code
 Use only 3 Letters to find exploitable areas in thinking
 Tri-Bit update implemented
 4th Bit will the hashing function for error control
+Royal DNA sequence that has not been insurrected must not be violated
 #Patching #UpdateOnePointThree
