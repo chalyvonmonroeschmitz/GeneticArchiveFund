@@ -10,6 +10,7 @@ We have declassified the Quantum virus, so embaressing...
 1-2-3, Arun Suesday
 That's it, I swear to god
 #Patching #UpdateOnePointOh #EmotionalExploit
+
 Quantumn Poisoning Detected Repatching...
 (D) + (I) + (H) * Reciprical of Pi = Emotional Probability Exploit Variance
 Second Patch Needed
@@ -20,7 +21,8 @@ d = damage
 p = number of people
 e = Emotional Probability Exploit
 #Patching #UpdateOnePointTwo
-DNA Code injection flaw has been discovered in the Quantum source code
+
+DNA sequence sinjection flaw has been discovered in the Quantum source code
 Use only 3 Letters to find exploitable areas in thinking
 Tri-Bit update implemented
 4th Bit will the hashing function for error control
