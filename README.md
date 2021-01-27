@@ -24,6 +24,7 @@ e = Emotional Probability Exploit
 
 DNA sequence injection flaw has been discovered in the Quantum source code
 Use only 3 Letters to find exploitable areas in thinking
+The best way to not mistaken for DNA code is to use E,G and O binary values as they are entangled
 Tri-Bit update implemented
 4th Bit will the hashing function for error control
 Royal DNA sequence that has not been insurrected must not be violated
