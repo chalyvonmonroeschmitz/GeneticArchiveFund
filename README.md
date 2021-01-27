@@ -12,3 +12,11 @@ That's it, I swear to god
 #Patching #UpdateOnePointOh #EmotionalExploit
 Quantumn Poisoning Detected Repatching...
 (D) + (I) + (H) * Reciprical of Pi = Emotional Probability Exploit Variance
+Second Patch Needed
+Choice is now directive as this program is buggy
+For scalability usage of Aplogetic formula to be written in
+sum of (Directive Binary XOR) 1  + (d + p / e) * phi = Apologetic weight
+d = damage
+p = number of people
+e = Emotional Probability Exploit
+#Patching #UpdateOnePointTwo
