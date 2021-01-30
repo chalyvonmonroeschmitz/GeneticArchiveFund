@@ -38,3 +38,7 @@ The S matrix for ordering has an exploit and Wick's theorem will now be a practi
 Sound resonance and vibration frequencies vulnerability can potentialy corrupt the Quantum run time process
 To mitigate this the boson field will need to utilized to withstand and seperate the interpreter from analyzing sounds and vibration frequencies
 #Patching #UpdateOnePointFive
+
+We have discovered that certain electronic devices such as lifts and PCB boards with user interactions have keys and numbers that can corrupt the Quantum field of our runtime processing. Such as the case of Lisa Lamb, there was a corrupted field that was found.
+To mitigate this there will need to be a routine scan on both time, gravity and boson fields that have these potential PCB systems and when discovered close down those fields or collapse the gravitational mass.
+#Patching #UpdateOnePointSix
