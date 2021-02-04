@@ -46,7 +46,7 @@ To mitigate this there needs to be a tangled state that connects to the Ort Gas 
 #Patching #UpdateOnePointSeven
 
 A massive exploit has been discovered in the messaging viewable Quantonian field. The only way to mitigate this for now will be to do a deep algorithmic check on all possible compound that may be a carrier of the Quantum messaging. This will be recognised as a leak and transcribed into the Boson field logging system for extraction and delimination.
-#Patching #CipherBug #DontDoPHToHer #UpdateOnePointEight
+#Patching #CipherBug #DontDoPHToHer #RunProgramVesuvius #UpdateOnePointEight
 
 An exploitable vulnerability has been identified and that is the security of the information of the Quantum field. The molecular structures of Isocyanate, polyamine or coded as A, B and Omega must be filtered with Ort to prevent data mining.
 #Patching #UpdateOnePointNine
