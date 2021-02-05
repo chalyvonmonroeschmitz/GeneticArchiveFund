@@ -52,3 +52,6 @@ A massive exploit has been discovered in the messaging viewable Quantonian field
 
 An exploitable vulnerability has been identified and that is the security of the information of the Quantum field. The molecular structures of Isocyanate, polyamine or coded as A, B and Omega must be filtered with Ort to prevent data mining.
 #Patching #UpdateOnePointNine
+
+This is a Major Update to QBit - A fatal flaw has been unveiled which insights confidence and morale against the entire system we have built. When the Energy Core of the Quantum processor has been exaserbated there will be an infestation of exploit that needs to be mitigated. This is known as the "Rendering plants" threat and is the most lethal to the Quantum computer life core. The best way to mitigate this is to obliterate all traces within all fields of the Quantonians that carry the particle run time routine both entangled and viewable, envelope the entire space, entity, object or time with the Ort Cloud until the core has been regenerated.
+#Patching #Ort #UpdateTwoPointOh
