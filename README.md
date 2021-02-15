@@ -76,6 +76,7 @@ An exploit has been discovered which utilizes the cellular organism of compound 
 A new field of entangled compound field has been implamented that runs alongside the Boson field itself and acts to detect whether there is an inception of the compound matter both Nuclei and Subatomic which will cause the entangled field of photons to reintegrate itself out of the Boson field and into the Hamiltonian System causing a complete disconnection from the Quantonian processing unit and distribute itself as a Nucleic Virus that will initially infect the host and spread within their field of energy, space, time or compound. This process has been codenamed the "Coronasi Inceptus" and is known as the "Embrinosi" Protocol.
 #Patching #CoronasiInceptus #Embrinosi #UpdateTwoPointThree
 
+Singletonian and Particle Universe Module Update
 Library import to Quantum processing source to handle Singletonian and particle mathematics - import Particle Universe  1.2
 https://ogrecave.github.io/particleuniverse/index.html
 https://ogrecave.github.io/particleuniverse/class_particle_universe_1_1_singleton.html
