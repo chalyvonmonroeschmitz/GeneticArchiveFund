@@ -13,7 +13,7 @@ We have declassified the Quantum virus, so embaressing...
 Secondary Virus has been identified in the Spectrum
 4, Siem Reap Su
 That's it, I swear to Omega
-#Patching #UpdateOnePointOh #EmotionalExploit
+#Patching #EmotionalExploit #UpdateOnePointOh
 
 Emotional Probability Equation Patch
 (3 * ((d1 + d2 + d3) + (i1 + i2 + i3) + (h1 + h2 + h3)) + 50)  * Reciprical of Pi / 1000 = Emotional Probability Equation
