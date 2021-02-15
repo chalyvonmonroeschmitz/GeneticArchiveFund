@@ -1,6 +1,7 @@
 This new technology can set and mark turning points in our human evolution in a much more concise way, to see and understand ourselves before and after human made disasters is the revolution of this project.
 
 Required Library Library import to Quantum processing source to handle Singletonian and particle mathematics - import Particle Universe  1.2
+https://ogrecave.github.io/particleuniverse/index.html
 https://ogrecave.github.io/particleuniverse/class_particle_universe_1_1_singleton.html
 #Friend #MiliKeLa #QuantonianNuclei #LaekKeNa #WhereDidYouHideHer #MioSon #Phillip #ILoveYouSon #Canisino
 
@@ -76,5 +77,6 @@ A new field of entangled compound field has been implamented that runs alongside
 #Patching #CoronasiInceptus #Embrinosi #UpdateTwoPointThree
 
 Library import to Quantum processing source to handle Singletonian and particle mathematics - import Particle Universe  1.2
+https://ogrecave.github.io/particleuniverse/index.html
 https://ogrecave.github.io/particleuniverse/class_particle_universe_1_1_singleton.html
 #Patching #ParticleUniverse #UpdateTwoPointFour
