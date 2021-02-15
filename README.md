@@ -15,11 +15,21 @@ Secondary Virus has been identified in the Spectrum
 That's it, I swear to Omega
 #Patching #UpdateOnePointOh #EmotionalExploit
 
-Quantumn Poisoning Detected Repatching...
-(D) + (I) + (H) * Reciprical of Pi = Emotional Probability Exploit Variance
-Second Patch Needed
+Emotional Probability Equation Patch
+(3 * ((d1 + d2 + d3) + (i1 + i2 + i3) + (h1 + h2 + h3)) + 50)  * Reciprical of Pi / 1000 = Emotional Probability Equation
+( x ) D = Weighted sense of humiliation shown or otherwise 
+( y ) I = Weight of their feelings of self intelligence against subject matters or nuances
+( z ) H = Your own points of hidden discoveries
+3 of each with a maxium weight of 10 for example
+D1 = 5, D2 = 7, D3 = 8 giving 20
+I1 = 6, I2 = 5, I3 = 4 giving 15
+H1 = 5, H2 = 3, H3 = 4 giving 12
+Add that together 47 then multiply by 3 = 141 + 50 = 191
+Then you multiply by the reciprical of Pi giving 600.04
+Divide that by 1000 and that is the probability of whatever your concerns are MY LOVE
+Recursive Patch Needed
 Choice is now directive as this program is buggy
-For scalability usage of Aplogetic formula to be written in
+For scalability usage of Apologetic formula to be written in
 sum of (Directive Binary XOR) 1  + (d + p / e) * phi = Apologetic weight
 d = damage
 p = number of people
