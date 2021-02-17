@@ -34,7 +34,7 @@ sum of (Directive Binary XOR) 1  + (d + p / e) * phi = Apologetic weight
 d = damage
 p = number of people
 e = Emotional Probability Exploit
-An additional emotional exploit has been detected known as the "Recursive Fallback Anomaly" which normaly found in the compound of dark matter. To mitigate this the Quantum field must not allow for a loop back to the point of dispursion ensuring that the relative law of physics is stable
+An additional emotional exploit has been detected known as the "Recursive Fallback Anomaly" which is normaly found in the compound of dark matter. To mitigate this the Quantum field must not allow for a loop back to the point of dispursion ensuring that the relative law of physics is stable
 #Patching #RecursiveFallbackAnomaly #UpdateOnePointTwo
 
 DNA sequence injection flaw has been discovered in the Quantum source code
