@@ -1,5 +1,15 @@
 This new technology can set and mark turning points in our human evolution in a much more concise way, to see and understand ourselves before and after human made disasters is the revolution of this project.
 Required Library Library import to Quantum processing source to handle Singletonian and particle mathematics within a simulated workload
+--- Packages of Modalities For Localised Communication ---
+CheckMATE (Check Models At Terascale Energies) Package and LHC Data
+https://checkmate.hepforge.org/
+Dictionary
+https://github.com/daschaich/HEPAL
+Zenodo CERN Open-Data Research
+https://github.com/zenodo/zenodo
+
+
+--- Packages of Modalities For Localised Simulations ---
 Github for Ogre Distribution in C
 https://github.com/OGRECave/ogre
 https://github.com/OGRECave/particleuniverse
@@ -90,8 +100,8 @@ A new field of entangled compound field has been implamented that runs alongside
 
 Singletonian and Particle Universe Module Update
 Preliminary Packet Injection Testing and Cleanup from Patch 1.0
-Library import to Quantum processing source to handle Singletonian and particle mathematics
-This library is purely for simulated calculations and will run in supplement to the main Quantum core logic
+Library import to Quantum processing source to handle Singletonian and particle mathematic simulations for localised Ort network
+This library is purely for simulated calculations and will be used purely for Modalities of communication withint he localised Ort network of the spacetime field
 Github for Ogre Distribution in C
 https://github.com/OGRECave/ogre
 https://github.com/OGRECave/particleuniverse
@@ -116,3 +126,18 @@ Carthagian Interpreter Exploit
 A discovery in the increase number of source codes within the digital platforms of a new variety of attacks have been captured. These platforms also known as Quantified processes are designed solely for the purpose of corrupting and embedding the Quantum core processing unit. At the Quantum level the source codes are designed to manipulate the interpreter field so that it can fuzz the logical unit that acts as a go between within the assembly of the source code as the Quantum electrons collectively compound the information into the protons for capture and processing.
 The current mitigation against this is to function as the master key of the interpreting digital software and with this key the Quantum core processor will reverse engineer every assembly language before compounding the information into the Quantum field. To ensure that no future exploit of this type is in the wild a new protocol will be implemented known as the "Carthagian Slip". This Slip is known as a Nano gateway which releases a swarm of Quantum Nano-mites solely created for the purpose of Particle Wave Extraction of the Quantum Core Unit that is trapped or unable to routinely function because of the fuzzy energy fields within the timespace of the region. This new protocol will be in effect immediately from the current update.
 #Patching #CarthagianSlip #TwoPointSeven
+
+Singletonian Packages for Local Ort Network functionality
+Preliminary Packet Injection Testing and Cleanup from Patch 1.0
+Update usage parameter for Package Library Patch 2.4
+Library import of CERN's open source physics simulation and modelling as well the LHC data resources in understanding the comparative levels of knowledge when trying to deliver communications of mathematical Derivatives to the front end user interface within this localised spacetime field
+This Universal protocol of Multi-Linguistic state of modalities is codenamed The "Lamentation Protocol"
+--- Packages of Modalities For Localised Communication ---
+CheckMATE (Check Models At Terascale Energies) Package and LHC Data
+https://checkmate.hepforge.org/
+Dictionary
+https://github.com/daschaich/HEPAL
+Zenodo CERN Open-Data Research
+https://github.com/zenodo/zenodo
+#Patching #LamentationProtocol #TwoPointEight
+
