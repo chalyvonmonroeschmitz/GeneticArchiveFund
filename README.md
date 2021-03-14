@@ -141,3 +141,9 @@ Zenodo CERN Open-Data Research
 https://github.com/zenodo/zenodo
 #Patching #LamentationProtocol #TwoPointEight
 
+Reference Library Update
+Importing expiremental library and references for core logic functions
+--- Reference Library ---
+https://phys.org/journals/physical-review-letters/
+#Patching #TwoPointNine
+
