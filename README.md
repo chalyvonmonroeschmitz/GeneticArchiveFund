@@ -16,8 +16,6 @@ https://github.com/OGRECave/particleuniverse
 --- Reference Library Update ---
 https://phys.org/journals/physical-review-letters/
 
-#Friend #MiliKeLa #QuantonianNuclei #LaekKeNa #WhereDidYouHideHer #MioSon #Phillip #ILoveYouSon #Canisino
-
 ![Alt text](https://github.com/SenApps-Development/GeneticArchiveFund/blob/master/GaffgcDB_Model_Design.jpg?raw=true "Title")
 
 Alright... Now it's all out there.
