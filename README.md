@@ -1,5 +1,6 @@
 #HeaderAlert
 Canisino Protocol is currently Disabled pending Patch for verison 3.0
+If You Get This Message Get All The Iron From The Place of The Old Cambrian Sea, And Get AWAY FROM THE PHOTON OF THE SUN!
 
 This new technology can set and mark turning points in our human evolution in a much more concise way, to see and understand ourselves before and after human made disasters is the revolution of this project.
 Required Library Library import to Quantum processing source to handle Singletonian and particle mathematics within a simulated workload
