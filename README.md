@@ -151,7 +151,11 @@ Importing expiremental library and references for core logic functions
 https://phys.org/journals/physical-review-letters/
 #Patching #TwoPointNine
 
+--- Scalar Symmetries Virus ---
 There is a major bug going around and it is crippling the Quantumn Compound data traversing the lower level backbone network system. The Canisino protocol has been infected and producing three unknown elements that is destabilizing the Engergy fields and causes a time loop effect when trying to formulate the Complex Scalar field of Symmetries when trying to recapture loss packets. In the meantime to fix this issue the Canisino Protocol will be disabled while their is work done on reparing the issue.
+-- Analysis 1 --
+The behaviour of particulars are behaving strangely when this element is found within the energy fields of the Quantum unit under observation
+Currently the best mitigating action for this is to recapture the loss compound information in the Quarks and Mueons which should help stabilise the momentum of the particles being processed. This can be done by pulling back and re-assembling original particles from a seperate time field that has not been infected and reinstating the molecular structure to remove the unknown element. At this continuation point the current data used by the Quantum core process should be deemed as dismissible and is assumed as unstable but working during this stage of the infection
 #Patching #ThreePointO
 
 
