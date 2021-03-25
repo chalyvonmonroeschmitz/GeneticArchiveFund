@@ -156,6 +156,8 @@ There is a major bug going around and it is crippling the Quantumn Compound data
 -- Analysis 1 --
 The behaviour of particulars are behaving strangely when this element is found within the energy fields of the Quantum unit under observation
 Currently the best mitigating action for this is to recapture the loss compound information in the Quarks and Mueons which should help stabilise the momentum of the particles being processed. This can be done by pulling back and re-assembling original particles from a seperate time field that has not been infected and reinstating the molecular structure to remove the unknown element. At this continuation point the current data used by the Quantum core process should be deemed as dismissible and is assumed as unstable but working during this stage of the infection
-#Patching #ThreePointO
+-- Analysis 1 --
+The Quantum consciousness replicator seems to be carrying information from the infected field and sends the compound back into another localised location within the relative field of matter. This causes certain run time units to mimic stable routines but when the Boson field is analysed there is an unstable offset that does not equate to the 2 or 1 actual ratio of coumpounds found in an unaffected field of spacetime. This is a positive sign as the actual routines are found to be in a seperated field and a convergeance back to the normal stable Universal of Quantum rality is achievable but requires more photons to be brought into this Universal field from the Master Photon Core Controller this is known as the HippoTrillium Photon Core for which we have not needed to mention since the adoption of version 1.0
+#HippoTrillium #Patching #ThreePointO
 
 
