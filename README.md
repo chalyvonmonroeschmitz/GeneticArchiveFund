@@ -148,3 +148,7 @@ Importing expiremental library and references for core logic functions
 https://phys.org/journals/physical-review-letters/
 #Patching #TwoPointNine
 
+There is a major bug going around and it is crippling the Quantumn Compound data traversing the lower level backbone network system. The Canisino protocol has been infected and producing three unknown elements that is destabilizing the Engergy fields and causes a time loop effect when trying to formulate the Complex Scalar field of Symmetries when trying to recapture loss packets. In the meantime to fix this issue the Canisino Protocol will be disabled while their is work done on reparing the issue.
+#Patching #ThreePointO
+
+
