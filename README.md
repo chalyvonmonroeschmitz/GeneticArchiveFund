@@ -181,6 +181,8 @@ The current protocol will run indefinately until further notice and will be code
 8) Move militar front with the infrastructure support of resources and fortification networks along the fron. Optimize this network for at optimal maximum capacity
 9) Send Reconnaisance probes with offensive and defensive support across the Quantum Fields of Physics while mainting local for the return of positional source in spacetime. Analyse and communicate through intel or passive communicable beings. Eliminate all hostiles and fortifie strategic positions to support recon network.
 10) Continue the operational life cycle unto further notice
-#Patching #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
+11) Ensure all vulnerable or flanking positions are reinforced and fortified with recon support.
+12) Begin work on incramental growing communication and positional commands with a network branching structure of industrial military capabilities for the preservation of this structure codenamed MilSat Network do the same for Planetery based command networks
+#Patching MilSatNetwork #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
 
 
