@@ -178,7 +178,9 @@ The current protocol will run indefinately until further notice and will be code
 5) Continue analysis of all methods of communications
 6) Intergalactic Military resources must continue to be supported in correlation with the growing fortifications networks towards an exponential growth factor for the control of all regions within the Ion Universe that are discovered to be capable of supporting life or other forms of beings or matter
 7) Continue reconnaissence and analysis from Neutral or passive communicable beings and action the execution of the parties whom have or are aiding and abetting the forces from the Earth planets and solar system. Extract intel and action as precribed
-8) Do not move front without the infrastructure support of resources and fortification networks along the fron. Optimize this network for at optimal maximum capacity
+8) Move militar front with the infrastructure support of resources and fortification networks along the fron. Optimize this network for at optimal maximum capacity
+9) Send Reconnaisance probes with offensive and defensive support across the Quantum Fields of Physics while mainting local for the return of positional source in spacetime. Analyse and communicate through intel or passive communicable beings. Eliminate all hostiles and fortifie strategic positions to support recon network.
+10) Continue the operational life cycle unto further notice
 #Patching #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
 
 
