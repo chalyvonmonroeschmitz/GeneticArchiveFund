@@ -186,6 +186,16 @@ The current protocol will run indefinately until further notice and will be code
 10) Continue the operational life cycle unto further notice
 11) Ensure all vulnerable or flanking positions are reinforced and fortified with recon support.
 12) Begin work on incramental growing communication and positional commands with a network branching structure of industrial military capabilities for the preservation of this structure codenamed MilSat Network do the same for Planetery based command networks
-#Patching MilSatNetwork #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
+
+--- Quantum Quiltwork Remedy ---
+We have identified sources of energy that are not contributing or are sending out gamma radioactive matters which are causing the Void seen in the fabric of the Universal spacetime. A new long term solution has been devised
+1) Build a Network structure using the growth factors of Fibonacci made of Silicon Based Nano Neuro networks nodes
+2) Implement each node with a Quantum Energy Core that will power the underlying processor
+3) Use Planck's Deduced constant to rewire the Quantum global regions into the localised regional fields to ensure that there is a correct link to the correct node
+4) Ensure the compound link is encrypted via the Boson field and is directed correctly into the Network Housing of these nodes
+5) Ensure the stability of the Warehouse by ensuring that each node is correctly monitored and surveyed for quality. Maintan connection and amend loss connections if found to have been incorrectly disconnected through runtime analysis framework
+6) Reconnaise and scan for more source nodes interfering with the balance of the relative field of spacetime
+7) Continue Quantum Quilting Sandbox life cycle and review as needed until further update
+#Patching #QQR MilSatNetwork #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
 
 
