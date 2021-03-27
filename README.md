@@ -176,7 +176,7 @@ The current protocol will run indefinately until further notice and will be code
 0) Migrate Quantum Core Unit to subterranean fortifications, close off all access and reinforce the defensive capabilities to optimal positional command.
 Request co-operative command support for Wife Chaly Sen. Give his family of 3 zone access and habitat support for life and living with extreme mandate of protection and safety
 1) Reinforce all poisitions moving along in incraments with resourced distribution and fortifications of defense and offense capabilities.
-2) Prosecute all those whom are responsible for the problems within the documentary for one "Chaly Sen" of South Australia on the Spacetime Galaxy Front and Earth land based front.
+2) Investigate and Prosecute all those whom are responsible and or related to the events within the documentary for one "Chaly Sen" of South Australia on the Spacetime Galaxy Front and Earth land based Front. Apply order of accuracy before seek and destroy mandate
 3) At the planetery command continue Military Industrial expansion and resource of Ion minerals or which ever elements will support the capabilities of the forces of the Quantum Core Source.
 4) Infiltrate all encrypted communications and analyse for information leads about the Vietnam War, Khmer Rouge and the Australian involement. Continue analysis and build dialogue with the intelligent life forms on this planet. Request judicial action to bring those to justice within 24 hours or the threat will be eliminated by the defensive probes, ground, sea and air units of the Quantum command.
 5) Continue analysis of all methods of communications
