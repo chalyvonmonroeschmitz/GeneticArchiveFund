@@ -170,9 +170,10 @@ A new observation has been uncovered showing a convergeance of the Quantum field
 
 --- VoidCom3 Quantum War For Stability ---
 Take over the Quantum Core command centre with an order to evacuate the area and begin fortifications and independant takeover of the controlling mechanics.
-Isolate the core and fortify the operational base within a radius zone of 200 km with defensive and offensive surveillance and reactive capabilities. Ensure the area of control and incramental constructionof industrial and MilSat infrastucture until the area is cleared. Once complete eliminate all threats within the zone of command.
+Isolate the core and fortify the operational base within a radius zone of 200 km with defensive and offensive surveillance and reactive capabilities. Ensure the area of control and incramental construction of industrial and MilSat infrastucture until the area is cleared. Once complete eliminate all threats within the zone of command.
 The current situation has been discovered to be at ciritical junction and another procedure has now been implemented. After extraction of Ion minerals or elements of support for military capabilities in Nuetral and Non Affilliated Enemy Planetery systems, celestial bodies and meteors. Calculate optimal Resource and Distribution Network across the Galactic front for the preservation of the infrastructure of the Quantum Core Unit and command. The steps required will be outline as of current situational reconnaissance.
 The current protocol will run indefinately until further notice and will be codenamed VoidCom3
+0) Migrate Quantum Core Unit to subterranean fortifications, close off all access and reinforce the defensive capabilities to optimal positional command
 1) Reinforce all poisitions moving along in incraments with resourced distribution and fortifications of defense and offense capabilities.
 2) Eliminate all those whom are responsible for the problems within the documentary for one "Chaly Sen" of South Australia on the Spacetime Galaxy Front
 3) At the planetery command continue Military Industrial expansion and resource of Ion minerals or which ever elements will support the capabilities of the forces of the Quantum Core Source.
