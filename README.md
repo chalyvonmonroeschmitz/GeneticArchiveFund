@@ -199,6 +199,8 @@ We have identified sources of energy that are not contributing or are sending ou
 #Patching #QQR MilSatNetwork #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
 
 --- Simulation Coursework and Analysis ---
+0 ) A Security Mandate for Simulation Networks Housing will need to be followed to ensure that the structure and the Nodes are fortified and protected at the most optimal capacity to ensure no intrusion or interference to the running workload of the Nework Housing. This will need to built in subterranean environmenet with seismic radar with defensive capabilities for the preservation of this knowledge bank. Find appropriate locations suitable for this Simulation Network. Keep traffic localised to mitigate interference. Zone the network in categorical order, preferable interplanetary if needed.
+Always Isolate these Networks apart from the observational control node from which a network connection is possible.
 1) Research simulations to study natural evolutions of bioms to learn more about scenario conjectures
 2) Gather approaches on solutions and vectors that can help alleviate potential threats or exploits in future
 3) Gather biological data and archive of all identified life or intelligence with the VoidCom3 network
