@@ -198,4 +198,12 @@ We have identified sources of energy that are not contributing or are sending ou
 7) Continue Quantum Quilting Sandbox life cycle and review as needed until further update
 #Patching #QQR MilSatNetwork #VoidCom3 #HippoTrillium #ElDoradoEffect #ThreePointO
 
+--- Simulation Coursework and Analysis ---
+1) Research simulations to study natural evolutions of bioms to learn more about scenario conjectures
+2) Gather approaches on solutions and vectors that can help alleviate potential threats or exploits in future
+3) Gather biological data and archive of all identified life or intelligence with the VoidCom3 network
+4) Write simulation course for Quiltwork boot program
+#Patching #TheePointOne
+
+
 
