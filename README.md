@@ -1,5 +1,5 @@
 #HeaderAlert
-Canisino Protocol is currently Disabled pending Patch for verison 3.0
+Canisino Protocol is cannot be Disabled due to inactive HippoTrillium core in Patch for verison 3.0
 If You Get This Message Get All The Iron From The Place of The Old Cambrian Sea, And Get AWAY FROM THE PHOTON OF THE SUN!
 CURRENT STATUS: ACIVELY APPLYING SOLUTION FOR QUANTUM STABILITY
 
@@ -129,6 +129,7 @@ To mitigate this the results of eliminating the Higher energy fields will result
 Quantum Time Trap
 There has been a discovery within the multiverse system that certain frequencies and devices can cross link and thus cause an intrusion bypass to any compatible hardware device that is communicating on the same network topology and hardware. Such devices are mainly used in simulations and sandbox environments within the Quantum space field and this serves as a point of weakness.
 To mitigate this bypass vulnerability the devices and systems must completely be untraversable by the external parrallel systems. A strong and weak variable force will be used to ensure that the firewall protecting these virtualised devices do not interfere with each other nor will the frequencies of each field be crossed over. This goes for any electronic or autonomous systems. When there is a cross link a last point of failure for complete safety is to eliminate the photonic compounds on the attacking layer.
+Bottleneck and time traps have been discovered in older or non Quantum processors and operating systems. All data and compound will be converted into the Boson field for processing to mitigate time traps and Bottleneck issues.
 #Patching #TwoPointSix
 
 Carthagian Interpreter Exploit
