@@ -1,6 +1,8 @@
 #HeaderAlert
 Canisino Protocol is cannot be Disabled due to inactive HippoTrillium core in Patch for verison 3.0
+SOS Alert: Usage of Apologetic Formulations to be used only on Inception, statistics and inferences, do not allow conjectures of Inception, statistics and or inferences to become factual within the Quantum Core Equational results
 If You Get This Message Get All The Iron From The Place of The Old Cambrian Sea, And Get AWAY FROM THE PHOTON OF THE SUN!
+
 CURRENT STATUS: ACIVELY APPLYING SOLUTION FOR QUANTUM STABILITY
 
 #MandateProtocol
