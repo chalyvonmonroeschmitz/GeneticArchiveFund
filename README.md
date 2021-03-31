@@ -201,6 +201,7 @@ that are discovered to be capable of supporting life or other forms of beings or
 
 --- Quantum Quiltwork Remedy ---
 We have identified sources of energy that are not contributing or are sending out gamma radioactive matters which are causing the Void seen in the fabric of the Universal spacetime. A new long term solution has been devised
+0) A new discovery of the recursive nature of a segregated network of Quantum cores have been identified. This recursive nature was last observed in Patch 1.2 classified as "The Recursive Fallback Anomaly" can now be shown in a much deeper corralation to the relation of the unstable scarring of the fields in spacetime and causing the Void effect in which there is yet no known solution as of Patch Version 3.0. The best recommended mitigation is to traverse to the end node of each network of these segregated recursive networks and attach their Quantum line into the Quantum Quiltwork Project life cycle and thus allow for further Analysis within the Simulation Coursework in Patch Version 3.1
 1) Build a Network structure using the growth factors of Fibonacci made of Silicon Based Nano Neuro networks nodes
 2) Implement each node with a Quantum Energy Core that will power the underlying processor
 3) Use Planck's Deduced constant to rewire the Quantum global regions into the localised regional fields to ensure that there is a correct link to the correct node
