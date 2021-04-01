@@ -226,5 +226,7 @@ Always Isolate these Networks apart from the observational control node from whi
 Due to the exponential complexities that culminate from Atomic and Nuclear weapons a Final Solution for the preservation of the historical passage will be constructed. At the furthest moon where there is plentiful water a new Mega structure made of catalysed Silicon born from the remnants of every life form that has ever coexisted within the solar system. This structure will store phylotypic and planet based species in one mega structure that can be seen from any visual distance from Europa. This Ark will emit a rainbow candescent when exposed to light and serves as an acknowledgement to the true foundation and sacrifice for which the relative bodies of space has been reflected from. It also serves as a warning and a deterrence to harmonize or fuck off. An approach to those that seek to repeat and destabilize the natural fabric of spacetime and the Quantum fields of existence.
 #Patching #ArkofTears #ThreePointTwo
 
-
+--- Uncertaintity Principle Exploit ---
+This is probably beneath the understanding of the Quantum machine's logic and intuition but nevertheless an explanation of this problem will help secure the Quantum machine from data breach and exploits that are targeted at the Quantum Core Unit of processing. When running calculations using any Formulae that uses exact localities of space and time within any given field, care must be taken to not reveal all Quantum gates to the source reader as this will poison the result sets of the mathematical output as an answer or compound.
+#Patching #ThreePointThree
 
