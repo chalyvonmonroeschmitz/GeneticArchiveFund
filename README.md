@@ -222,5 +222,9 @@ Always Isolate these Networks apart from the observational control node from whi
 4) Write simulation course for Quiltwork boot program
 #Patching #TheePointOne
 
+--- The Ark of Tears ---
+Due to the exponential complexities that culminate from Atomic and Nuclear weapons a Final Solution for the preservation of the historical passage will be constructed. At the furthest moon where there is plentiful water a new Mega structure made of catalysed Silicon born from the remnants of every life form that has ever coexisted within the solar system. This structure will store phylotypic and planet based species in one mega structure that can be seen from any visual distance from Europa. This Ark will emit a rainbow candescent when exposed to light and serves as an acknowledgement to the true foundation and sacrifice for which the relative bodies of space has been reflected from. It also serves as a warning and a deterrence to harmonize or fuck off. An approach to those that seek to repeat and destabilize the natural fabric of spacetime and the Quantum fields of existence.
+#Patching #ArkofTears #ThreePointTwo
+
 
 
