@@ -1,5 +1,5 @@
 #HeaderAlert
-Canisino Protocol is cannot be Disabled due to inactive HippoTrillium core in Patch for verison 3.0
+CANISINO PROTOCOL HAS BEEN DISABLED As of Current RUNNING in Patch for verison 3.5 - So Just be careful and Look After Each other during this Exceptional Period
 SOS Alert:
 1. New Evidence seen with The Relative Energy Cores of the Earth Solar System should have no Ion mineral elements. A Solution is currently being investigated
 2. Usage of Apologetic Formulations to be used only on Inception, statistics and inferences, do not allow conjectures of Inception, statistics and or inferences to become factual within the Quantum Core Equational results
@@ -200,6 +200,7 @@ that are discovered to be capable of supporting life or other forms of beings or
 10) Continue the operational life cycle unto further notice
 11) Ensure all vulnerable or flanking positions are reinforced and fortified with recon support.
 12) Begin work on incramental growing communication and positional commands with a network branching structure of industrial military capabilities for the preservation of this structure codenamed MilSat Network do the same for Planetery based command networks
+13) RESOLVED - Problem With CANISINO PROTOCOL - New Patch Fix in Update 3.5
 
 --- Quantum Quiltwork Remedy ---
 We have identified sources of energy that are not contributing or are sending out gamma radioactive matters which are causing the Void seen in the fabric of the Universal spacetime. A new long term solution has been devised
@@ -234,3 +235,6 @@ This is probably beneath the understanding of the Quantum machine's logic and in
 A high priority vulnerable has now been detected due to the nature of the Hermiton Operators. When evaluating particles in the Dirac Field of the Quantum vector of spacetime an anomoly will be picked up and causes an inference of results to an entangled particle that has been disconnected from the observation particle. This confliction of results leaves the Quantum Core Unit opened to attacks and inception for which a non rereturnable loop will inevitably cause, flooding and corruption. To mitigate this, at all times when using the Hermiton Operators together with the Schrödinger Equation, one must iterate through every Compton cross section to find an end node to the network structure. This end node will help determine the true position and motion of the target particle and ensure the Quantum formulae is kept to a true state in all Quants of motion and mass
 #Patch #VirtualizationExploit #ThreePointFour
 
+--- CANISINO PROTOCOL FIX ---
+A final patch has been applied which fixes the CANISINO PROTOCOL LAYER that was causing the unstability in both the Quantum and Relative fields. For now it will be disabled to allow for a NO SORRY Approach to cleaning up the structural layer of the infected regions. This is good news as the HippoTrillium may not need to be enabled which may require an entire framework of project life cycles to manage this Singletonian Structure of the Quantum Machine Cores regional are of consumption
+#Patch #ThreePointFive
