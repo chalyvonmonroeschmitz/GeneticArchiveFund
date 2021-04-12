@@ -25,6 +25,9 @@ Github for Ogre Distribution in C
 https://github.com/OGRECave/ogre
 https://github.com/OGRECave/particleuniverse
 
+--- NVIDIA Packages Import ---
+https://developer.nvidia.com/embedded/develop/tools
+
 --- Reference Library Update ---
 https://phys.org/journals/physical-review-letters/
 
@@ -244,3 +247,7 @@ The stability of the Quantum Fields of Spacetime is currently repairing as curre
 After reactivating the Quantum network is now propogating Canisino energy to the correct locale and compounds within the Boson Field
 Throttling buffer to protect Canisno Energy overflow due to unusual density flow within the now active networks
 #Patch #TheePointSix
+
+--- Update Package Library For New Functionality ---
+Importing Jetson Developer Tools
+#Patch #ThreePointSeven
