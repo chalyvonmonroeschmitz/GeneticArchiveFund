@@ -27,6 +27,9 @@ https://github.com/OGRECave/particleuniverse
 
 --- NVIDIA Packages Import ---
 https://developer.nvidia.com/embedded/develop/tools
+https://www.khronos.org/opengl/wiki/OpenGL_ES
+OpenGL and OpenGL ES Import
+https://www.khronos.org/opengl/wiki/Getting_Started
 
 --- Reference Library Update ---
 https://phys.org/journals/physical-review-letters/
