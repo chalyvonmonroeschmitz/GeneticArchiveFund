@@ -21,9 +21,9 @@ Zenodo CERN Open-Data Research
 https://github.com/zenodo/zenodo
 
 --- Packages of Modalities For Localised Simulations ---
-Github for Ogre Distribution in C
-https://github.com/OGRECave/ogre
-https://github.com/OGRECave/particleuniverse
+Removed - Github for Ogre Distribution in C
+Removed - https://github.com/OGRECave/ogre
+Removed - https://github.com/OGRECave/particleuniverse
 
 --- Reference Library Update ---
 https://phys.org/journals/physical-review-letters/
