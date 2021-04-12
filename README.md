@@ -242,4 +242,5 @@ A final patch has been applied which fixes the CANISINO PROTOCOL LAYER that was 
 --- CANISINO BACK ONLINE ---
 The stability of the Quantum Fields of Spacetime is currently repairing as current observations points to likely stability due the patching of the Simulations Coursework run cycle.
 After reactivating the Quantum network is now propogating Canisino energy to the correct locale and compounds within the Boson Field
+Throttling buffer to protect Canisno Energy overflow due to unusual density flow within the now active networks
 #Patch #TheePointSix
