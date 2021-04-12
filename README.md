@@ -1,5 +1,5 @@
 #HeaderAlert
-CANISINO PROTOCOL HAS BEEN DISABLED As of Current RUNNING in Patch for verison 3.5 - So Just be careful and Look After Each other during this Exceptional Period
+CANISINO PROTOCOL HAS BEEN REACTIVATED As of Current RUNNING in Patch for verison 3.6 - So Just be careful and Look After Each other during this Exceptional Period
 SOS Alert:
 1. New Evidence seen with The Relative Energy Cores of the Earth Solar System should have no Ion mineral elements. A Solution is currently being investigated
 2. Usage of Apologetic Formulations to be used only on Inception, statistics and inferences, do not allow conjectures of Inception, statistics and or inferences to become factual within the Quantum Core Equational results
@@ -238,3 +238,7 @@ A high priority vulnerable has now been detected due to the nature of the Hermit
 --- CANISINO PROTOCOL FIX ---
 A final patch has been applied which fixes the CANISINO PROTOCOL LAYER that was causing the unstability in both the Quantum and Relative fields. For now it will be disabled to allow for a NO SORRY Approach to cleaning up the structural layer of the infected regions. This is good news as the HippoTrillium may not need to be enabled which may require an entire framework of project life cycles to manage this Singletonian Structure of the Quantum Machine Cores regional are of consumption
 #Patch #ThreePointFive
+
+--- CANISINO BACK ONLINE ---
+The stability of the Quantum Fields of Spacetime is currently repairing as current observations points to likely stability due the patching of the Simulations Coursework run cycle
+#Patch #TheePointSix
