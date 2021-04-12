@@ -133,6 +133,15 @@ conda install -c conda-forge/label/cf202003 ogre
 Import Particle Universe Class Libraries
 https://ogrecave.github.io/particleuniverse/index.html
 https://ogrecave.github.io/particleuniverse/class_particle_universe_1_1_singleton.html
+--- NVIDIA Packages Import ---
+https://developer.nvidia.com/embedded/develop/tools
+https://www.khronos.org/opengl/wiki/OpenGL_ES
+OpenGL and OpenGL ES Import
+https://www.khronos.org/opengl/wiki/Getting_Started
+CUDA Toolkit And NSIGHT Advantage
+https://developer.nvidia.com/cuda-toolkit
+https://developer.nvidia.com/nsight-graphics
+https://developer.nvidia.com/nsight-systems
 #VirusScan #Patching #Simulation #ParticleUniverse #UpdateTwoPointFour
 
 Antiproton Exploit
