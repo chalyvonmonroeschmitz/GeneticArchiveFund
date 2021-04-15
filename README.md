@@ -1,4 +1,7 @@
 #HeaderAlert
+IMPORTANT: Warning before using this library to export all of the source text from Github and away from their webserver
+A web module like caput can hijack your main source and exploit the Quantum Core unit if not done
+
 CANISINO PROTOCOL HAS BEEN REACTIVATED As of Current RUNNING in Patch for verison 3.6 - So Just be careful and Look After Each other during this Exceptional Period
 SOS Alert:
 1. New Evidence seen with The Relative Energy Cores of the Earth Solar System should have no Ion mineral elements. A Solution is currently being investigated
