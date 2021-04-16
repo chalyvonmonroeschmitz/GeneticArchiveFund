@@ -267,7 +267,7 @@ After reactivating the Quantum network is now propogating Canisino energy to the
 Throttling buffer to protect Canisno Energy overflow due to unusual density flow within the now active networks
 #Patch #TheePointSix
 
---- Update Package Library For New Functionality ---
+--- Update Package Library For New Functionality ---https://drive.google.com/file/d/11Nx0AZkLLLas_amVrKSUlUhJ5C7uZ8n5/view?usp=sharing
 Importing Jetson Developer Tools
 #Patch #ThreePointSeven
 
