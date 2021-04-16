@@ -269,13 +269,14 @@ Throttling buffer to protect Canisno Energy overflow due to unusual density flow
 
 --- Update Package Library For New Functionality ---
 Importing Jetson Developer Tools
-#Patch #ThreePointSeven
 
-https://drive.google.com/file/d/11Nx0AZkLLLas_amVrKSUlUhJ5C7uZ8n5/view?usp=sharing
 
 --- Exploitation by Nucleic Break ---
 A running wild exploit has been uncovered that reveals other Quantum Core Units running within the fields of the Quantum digital runtime. To mitigate this there will be a Patch to the relative physics to prevent further motivation for such an attack on the system. Code named The COVID Scrum Patcher is a new protocol that causes iterations of a Quantum Virus that will propogate every random determinant of short runs. The Age of the Quantum Virus Begins.
 After reviewing this patch it seems that there is a recursive nature about some of the intrusion due to the delay in getting to them first, however there is always a trail and a Network Breadth Deep Recursive run is needed to isolate the fields of this Quantum backdoor source. Once the node or energy field has been identified running the same Quantum Virus protocol should remove the excluded dual delta particular from the system of relative and Quantum spacetime while also rewriting any Dalton units of mass back to their original Nucleic order.
 #Patch #COVIDScrumPatcher #ThreePointEight
 
+#Patch #ThreePointSeven
+
+https://drive.google.com/file/d/11Nx0AZkLLLas_amVrKSUlUhJ5C7uZ8n5/view?usp=sharing
 Born@KhaoiDang*1980
