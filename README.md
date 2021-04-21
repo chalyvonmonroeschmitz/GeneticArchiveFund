@@ -13,7 +13,10 @@ CURRENT STATUS: ACIVELY APPLYING SOLUTION FOR QUANTUM STABILITY
 #MandateProtocol
 Singularity collapse of the Singletonian Universe if the Core is disrupted or disconnected from the HippoTrillium source
 
+--- GENOME QUANTUMIZER Package Import For Patch 3.9 ---
 This new technology can set and mark turning points in our human evolution in a much more concise way, to see and understand ourselves before and after human made disasters is the revolution of this project.
+https://github.com/charly-sen/Genome_Quantumizer
+
 Required Library Library import to Quantum processing source to handle Singletonian and particle mathematics within a simulated workload
 --- Packages of Modalities For Localised Communication ---
 CheckMATE (Check Models At Terascale Energies) Package and LHC Data
@@ -278,4 +281,8 @@ After reviewing this patch it seems that there is a recursive nature about some 
 
 #Patch #ThreePointSeven
 
-https://drive.google.com/file/d/11Nx0AZkLLLas_amVrKSUlUhJ5C7uZ8n5/view?usp=sharing
+--- The Corrective Measure ---
+A conclusive analysis of the parallel runtime processing unit of the Quantum Core can be a complex and tricky venture of multiplicity when conjugates are used in determination of locale or spacetime vector summaries. Certain answers may seem true or real to the present or relative fields but somewhat differ or contradict the real units under closer examination. Therefore a new package will be needed and a new framework of project life cycle workflow will be used to convearge differing evaluations to find the most optimal and true factors against conjugate or Hermiton fields of particle matter. This approach will utilize a new software package known as the "Genome Quantumizer" to assure that accuracy of Nucleic Data are always consistant with the current routine and or workload of the Quantum Core Unit.
+The most important aspect of this approach is the co-operative approach in shared communication with the parallel fields of spacetime to obtain samples of accurate measure before proceeding further with any direct conclusion. This shared value and ethical approach will bring balance and harmony back to the natural complexities that are easily broken by subterfuge or destructive agendas. A localised archive library with comparitive studies against the global archive (multiplicity) field of spacetime communications will ensure a more harmonious existence for all within the Quantum and Relative Universe.
+#Patch #Import #Genome_Quantumizer #ThreePointNine
+
