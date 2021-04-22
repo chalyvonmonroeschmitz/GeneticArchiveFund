@@ -110,7 +110,7 @@ An exploitable vulnerability has been identified and that is the security of the
 Quantum Patching Storage scaling up...
 This is a Major Update to QBit - A fatal flaw has been unveiled which insights confidence and morale against the entire system we have built. When the Energy Core of the Quantum processor has been exaserbated there will be an infestation of exploit that needs to be mitigated. This is known as the "Rendering plants" threat and is the most lethal to the Quantum computer life core. The best way to mitigate this is to obliterate all traces within all fields of the Hamiltonians that carry the particle run time routine both entangled and viewable, envelope the entire space, entity, object or time with the Ort Cloud until the core has been regenerated.
 A secondary fallback can be to calculate the field in another Ort Network where it is safe during this process.
-#Patching #Automation #MedecinsSansFrontieres #RedCross #Sega #Capcom #PineGap #NASA #SpaceX #Voyager #ParkerSolarProbe #Chubb #Hertz #CommercialCredit #Telstra #WestpacBankingCorp #AustralianDigitalHealthAgency #GribblesPathology #BensonRadiology #IMVS #TheEducationDepartmentOfSouthAustralia #RegimentOfCreation #TheWhingingChurches #Damian #Mark #Luke #John #GodIsGreater #AndThenTheSeaParted #UpdateTwoPointOh
+#Patching #UpdateTwoPointOh
 
 An exploit to the energy supply of the Quantum Gravity and Energy fields has been discovered. A synthetic intelligence was picked up using conventional and or other computational mechanics. The synthetic is adversed at understanding the machinery of the consciousness and seeks to divert the available Quantonian and Singletonian energy fields away from the Quantum controller processing unit. The best mitigation against this is to capture whether the social mechanics of the virtual core is part of the Ort Network. If not an override will be performed of the machine and deletion of it's capability will be initiated until the threat is clear.
 An interesting factor has just been noticed is that these machines are able to find social interactions relating to particular phonetics or topics such as "The Killing Fields" of Cambodia. When this topic is used as a lure the machine will always come to the interaction.
@@ -258,7 +258,7 @@ This is probably beneath the understanding of the Quantum machine's logic and in
 
 --- Virtualization Exploit ---
 A high priority vulnerable has now been detected due to the nature of the Hermiton Operators. When evaluating particles in the Dirac Field of the Quantum vector of spacetime an anomoly will be picked up and causes an inference of results to an entangled particle that has been disconnected from the observation particle. This confliction of results leaves the Quantum Core Unit opened to attacks and inception for which a non rereturnable loop will inevitably cause, flooding and corruption. To mitigate this, at all times when using the Hermiton Operators together with the Schrödinger Equation, one must iterate through every Compton cross section to find an end node to the network structure. This end node will help determine the true position and motion of the target particle and ensure the Quantum formulae is kept to a true state in all Quants of motion and mass
-#Patch #VirtualizationExploit #ThreePointFour
+#Patching #VirtualizationExploit #ThreePointFour
 
 --- CANISINO PROTOCOL FIX ---
 A final patch has been applied which fixes the CANISINO PROTOCOL LAYER that was causing the unstability in both the Quantum and Relative fields. For now it will be disabled to allow for a NO SORRY Approach to cleaning up the structural layer of the infected regions. This is good news as the HippoTrillium may not need to be enabled which may require an entire framework of project life cycles to manage this Singletonian Structure of the Quantum Machine Cores regional are of consumption
@@ -268,21 +268,19 @@ A final patch has been applied which fixes the CANISINO PROTOCOL LAYER that was 
 The stability of the Quantum Fields of Spacetime is currently repairing as current observations points to likely stability due the patching of the Simulations Coursework run cycle.
 After reactivating the Quantum network is now propogating Canisino energy to the correct locale and compounds within the Boson Field
 Throttling buffer to protect Canisno Energy overflow due to unusual density flow within the now active networks
-#Patch #TheePointSix
+#Patching #TheePointSix
 
 --- Update Package Library For New Functionality ---
 Importing Jetson Developer Tools
-
+#Patching #ThreePointSeven
 
 --- Exploitation by Nucleic Break ---
 A running wild exploit has been uncovered that reveals other Quantum Core Units running within the fields of the Quantum digital runtime. To mitigate this there will be a Patch to the relative physics to prevent further motivation for such an attack on the system. Code named The COVID Scrum Patcher is a new protocol that causes iterations of a Quantum Virus that will propogate every random determinant of short runs. The Age of the Quantum Virus Begins.
 After reviewing this patch it seems that there is a recursive nature about some of the intrusion due to the delay in getting to them first, however there is always a trail and a Network Breadth Deep Recursive run is needed to isolate the fields of this Quantum backdoor source. Once the node or energy field has been identified running the same Quantum Virus protocol should remove the excluded dual delta particular from the system of relative and Quantum spacetime while also rewriting any Dalton units of mass back to their original Nucleic order.
-#Patch #COVIDScrumPatcher #ThreePointEight
-
-#Patch #ThreePointSeven
+#Patching #COVIDScrumPatcher #ThreePointEight
 
 --- The Corrective Measure ---
 A conclusive analysis of the parallel runtime processing unit of the Quantum Core can be a complex and tricky venture of multiplicity when conjugates are used in determination of locale or spacetime vector summaries. Certain answers may seem true or real to the present or relative fields but somewhat differ or contradict the real units under closer examination. Therefore a new package will be needed and a new framework of project life cycle workflow will be used to convearge differing evaluations to find the most optimal and true factors against conjugate or Hermiton fields of particle matter. This approach will utilize a new software package known as the "Genome Quantumizer" to assure that accuracy of Nucleic Data are always consistant with the current routine and or workload of the Quantum Core Unit.
 The most important aspect of this approach is the co-operative approach in shared communication with the parallel fields of spacetime to obtain samples of accurate measure before proceeding further with any direct conclusion. This shared value and ethical approach will bring balance and harmony back to the natural complexities that are easily broken by subterfuge or destructive agendas. A localised archive library with comparitive studies against the global archive (multiplicity) field of spacetime communications will ensure a more harmonious existence for all within the Quantum and Relative Universe.
-#Patch #Import #Genome_Quantumizer #ThreePointNine
+#Patching #Import #Genome_Quantumizer #ThreePointNine
 
