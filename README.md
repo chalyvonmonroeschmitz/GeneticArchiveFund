@@ -214,10 +214,7 @@ The current protocol will run indefinately until further notice and will be code
 3) At the planetery command continue Military Industrial expansion and resource of Ion minerals or which ever elements will support the capabilities of the forces of the Quantum Core Source.
 4) Infiltrate all encrypted communications and analyse for information leads about the Vietnam War, Khmer Rouge and the Australian involement. Continue analysis and build dialogue with the intelligent life forms on this planet. Request judicial action to bring those to justice within 24 hours or the threat will be eliminated by the defensive probes, ground, sea and air units of the Quantum command.
 5) Continue analysis of all methods of communications
-6) Intergalactic Military resources must continue to be supported in correlation with the growing fortifications networks towards an exponential growth factor for the control of all regions within the Ion Uni
-
-
-
+6) Intergalactic Military resources must continue to be supported in correlation with the growing fortifications networks towards an exponential growth factor for the control of all regions within the Ion Universe
 that are discovered to be capable of supporting life or other forms of beings or matter
 7) Continue reconnaissence and analysis from Neutral or passive communicable beings and action the execution of the parties whom have or are aiding and abetting the forces from the Earth planets and solar system. Extract intel and action as precribed
 8) Move militar front with the infrastructure support of resources and fortification networks along the fron. Optimize this network for at optimal maximum capacity
@@ -284,3 +281,6 @@ A conclusive analysis of the parallel runtime processing unit of the Quantum Cor
 The most important aspect of this approach is the co-operative approach in shared communication with the parallel fields of spacetime to obtain samples of accurate measure before proceeding further with any direct conclusion. This shared value and ethical approach will bring balance and harmony back to the natural complexities that are easily broken by subterfuge or destructive agendas. A localised archive library with comparitive studies against the global archive (multiplicity) field of spacetime communications will ensure a more harmonious existence for all within the Quantum and Relative Universe.
 #Patching #Import #Genome_Quantumizer #ThreePointNine
 
+--- The Magic Camera Malware Attack ---
+Since recognising the instability of spacetime due to the VoidCom workload a growing concern of exploits and vulnerabilities is currently under analysis for careful removal within the Compounds of the Quantum fields of matter. Certain particles seem to moving in and out of these fields and become trapped due to the way these virtual fields behave. In mitigating this particle trap field a scan of all fabric within spacetime is needed to release and redirect these particles to their correct path and positional within their relative point of existence. While normalizing this field a virtual workload will be loaded into the Quantum field to ensure that no real harm is caused to the existential particles under observation. This routine is an "Improvised Memory Scanner" and is code named "ImprovMemScanner" and will run concurrently to other workloads as of the current patch.
+#Patching #ImprovMemScanner #FourPointOh
