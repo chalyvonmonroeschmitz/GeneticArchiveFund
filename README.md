@@ -44,7 +44,7 @@ https://developer.nvidia.com/nsight-systems
 --- Reference Library Update ---
 https://phys.org/journals/physical-review-letters/
 
-Photo of my Lost Lineage
+Photo of a Stolen Lineage
 ![Alt text](https://github.com/charly-sen/GeneticArchiveFund/blob/ec699a32d777c4142096939b16f05b6c41948f19/Splitting%20Image%20of%20My%20Great%20Grandpa%20Sisowath%20Monivong.jpg?raw=true "Family%20Photo")
 
 Genetic Archive Network Diagram
