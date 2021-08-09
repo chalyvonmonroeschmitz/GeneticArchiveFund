@@ -45,7 +45,8 @@ https://developer.nvidia.com/nsight-systems
 https://phys.org/journals/physical-review-letters/
 
 Photo of my Lost Lineage
-![Alt text](Splitting Image of My Great Grandpa Sisowath Monivong.jpg)
+![Alt text](https://github.com/charly-sen/GeneticArchiveFund/blob/ec699a32d777c4142096939b16f05b6c41948f19/Splitting%20Image%20of%20My%20Great%20Grandpa%20Sisowath%20Monivong.jpg?raw=true "Family%20Photo")
+
 Genetic Archive Network Diagram
 ![Alt text](https://github.com/SenApps-Development/GeneticArchiveFund/blob/master/GaffgcDB_Model_Design.jpg?raw=true "Title")
 
