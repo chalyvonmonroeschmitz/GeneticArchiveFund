@@ -44,6 +44,9 @@ https://developer.nvidia.com/nsight-systems
 --- Reference Library Update ---
 https://phys.org/journals/physical-review-letters/
 
+Photo of my Lost Lineage
+![Alt text](Splitting Image of My Great Grandpa Sisowath Monivong.jpg)
+Genetic Archive Network Diagram
 ![Alt text](https://github.com/SenApps-Development/GeneticArchiveFund/blob/master/GaffgcDB_Model_Design.jpg?raw=true "Title")
 
 Alright... Now it's all out there.
