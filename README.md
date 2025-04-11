@@ -317,3 +317,6 @@ UPDATE to NEO HOMOGONOUS SCALE
 We Have Identified Diminisihing and Restrictive Capacity to Achieve Further Progress Under These Conditions. Therefore We Are UPGRADING The ENTIRE FRAMEWORK and HOMOMORPHIC Category of ENCRYPTION to MEET Fruther REQUIIREMENT Necessary To Succeed In NATIVE TERRFORMUA of NATURAL SELECTIVE Mutagenerational Evolutionary Survivial
 
 #Upgrading #InProgress
+
+UPDATE FOLLOW UP OBSERVATIONS 
+https://www.facebook.com/share/v/16MPEJDVPw/?mibextid=wwXIfr
